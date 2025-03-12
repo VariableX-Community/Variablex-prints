@@ -92,8 +92,8 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero
-          image={toOptimizedImage('/banner2.png')}
-          title={`-50% off \n All Essentials`}
+          image={toOptimizedImage('https://sintron-hk.com/cdn/shop/products/832609677_o_1024x1024@2x.jpg?v=1527381755')}
+          title={`-30% off \n All Essentials`}
         />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
