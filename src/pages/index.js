@@ -23,7 +23,9 @@ const IndexPage = () => {
   const goToShop = () => {
     navigate('/shop');
   };
-
+  const goToAbout = () => {
+    navigate('/about');
+  };
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
@@ -73,14 +75,16 @@ const IndexPage = () => {
       </div>
 
       {/* Promotion */}
-      <div className={styles.promotionContainer}>
+      <div className={styles.promotionContainer} style={{ marginTop: '100px' }}>
         <Hero
           image={toOptimizedImage('https://sintron-hk.com/cdn/shop/products/832609677_o_1024x1024@2x.jpg?v=1527381755')}
           title={`-30% off \n All Essentials`}
         />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>IOT & Robotics</Link>
+          <Link to={'/shop'}>Custom 3d Prints</Link>
+          <Link to={'/shop'}>Gifts & Accessories</Link>
+          <Link to={'/shop'}>Prototyping & Parts</Link>
         </div>
       </div>
 
@@ -95,7 +99,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={toOptimizedImage('/banner3.png')}
+          image={toOptimizedImage('https://formlabs-media.formlabs.com/filer_public_thumbnails/filer_public/f6/23/f623e6ff-7d8a-49e8-8f2b-4b40c938596c/image1.png__1184x0_subsampling-2.png')}
           title={'We are Sustainable'}
           subtitle={
             'From minimizing waste to supporting student innovation, explore how we’re making 3D printing more efficient and eco-friendly.'
@@ -103,6 +107,7 @@ const IndexPage = () => {
           ctaText={'read more'}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
+          ctaAction={goToAbout}
         />
       </div>
       <AttributeGrid />

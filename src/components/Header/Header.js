@@ -97,9 +97,8 @@ const Header = (prop) => {
                 <Link
                   key={navObject.menuLink}
                   onMouseEnter={() => handleHover(navObject)}
-                  className={`${styles.navLink} ${
-                    activeMenu === navObject.menuLabel ? styles.activeLink : ''
-                  }`}
+                  className={`${styles.navLink} ${activeMenu === navObject.menuLabel ? styles.activeLink : ''
+                    }`}
                   to={navObject.menuLink}
                 >
                   {navObject.menuLabel}
@@ -135,13 +134,13 @@ const Header = (prop) => {
             >
               <Icon symbol={'heart'}></Icon>
             </Link>
-            <Link
+            {/* <Link
               aria-label="Orders"
               href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
-            </Link>
+            </Link> */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
@@ -163,9 +162,8 @@ const Header = (prop) => {
 
         {/* search container */}
         <div
-          className={`${styles.searchContainer} ${
-            showSearch === true ? styles.show : styles.hide
-          }`}
+          className={`${styles.searchContainer} ${showSearch === true ? styles.show : styles.hide
+            }`}
         >
           <h4>What are you looking for?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
@@ -210,9 +208,8 @@ const Header = (prop) => {
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
         onMouseEnter={() => setShowMenu(true)}
-        className={`${styles.menuContainer} ${
-          showMenu === true ? styles.show : ''
-        }`}
+        className={`${styles.menuContainer} ${showMenu === true ? styles.show : ''
+          }`}
       >
         <Container size={'large'} spacing={'min'}>
           <ExpandedMenu menu={menu} />
