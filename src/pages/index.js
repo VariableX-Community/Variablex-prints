@@ -30,7 +30,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'https://plasticsheetsshop.co.uk/wp-content/uploads/2021/06/3d-printer-housing.jpeg'}
+        image={'https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/22/2024/07/3DPRINTER-BANNER.jpg'}
         title={'Essentials for Your Next Big Idea'}
         subtitle={'Discover Custom 3D Prints & Innovative Projects'}
         ctaText={'Get 3D Prints'}
