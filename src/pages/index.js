@@ -93,15 +93,6 @@ const IndexPage = () => {
           '“Innovation starts with an idea, and we’re here to bring it to life. At CapLock, we believe in creativity, precision, and making technology accessible to everyone.”'
         }
       />
-
-      {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
-        <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
-          <BlogPreviewGrid data={blogData} />
-        </Container>
-      </div>
-
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
