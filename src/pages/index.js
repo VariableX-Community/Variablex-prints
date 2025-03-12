@@ -39,14 +39,14 @@ const IndexPage = () => {
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+      <p>
+  Explore innovative <span className={styles.gold}>3D-printed projects</span> and custom designs crafted by students.
+</p>
+<p>
+  From <span className={styles.gold}>IoT hardware</span> to personalized <span className={styles.gold}>gifts & accessories</span>, bring your ideas to life with CapLock!
+</p>
+
+        
       </div>
 
       {/* Collection Container */}
