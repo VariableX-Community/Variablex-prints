@@ -83,8 +83,7 @@ const IndexPage = () => {
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>IOT & Robotics</Link>
           <Link to={'/shop'}>Custom 3d Prints</Link>
-          <Link to={'/shop'}>Gifts & Accessories</Link>
-          <Link to={'/shop'}>Prototyping & Parts</Link>
+
         </div>
       </div>
 
