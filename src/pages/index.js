@@ -31,7 +31,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/22/2024/07/3DPRINTER-BANNER.jpg'}
-        title={'Essentials for Your Next Big Idea'}
+        title={'Everything for Your Next Innovation'}
         subtitle={'Discover Custom 3D Prints & Innovative Projects'}
         ctaText={'Get 3D Prints'}
         ctaAction={goToShop}
@@ -88,9 +88,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about CapLock'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Innovation starts with an idea, and we’re here to bring it to life. At CapLock, we believe in creativity, precision, and making technology accessible to everyone.”'
         }
       />
 
