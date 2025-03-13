@@ -5,7 +5,7 @@
         "vendor": "CapLock",
         "price": 2999,
         "alt": "IoT Smart Robo Car",
-        "image": "/products/iot car.jpeg",
+        "image": "/products/iot_car.jpeg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -15,11 +15,11 @@
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
-            {"image": "/products/iot car.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/iot car 1.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/iot car 2.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/iot car 3.jpeg", "alt": "pdp description 4"},
-            {"image": "/products/iot car 4.jpeg", "alt": "pdp description 4"}
+            {"image": "/products/iot_car.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/iot_car_1.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/iot_car_2.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/iot_car_3.jpeg", "alt": "pdp description 4"},
+            {"image": "/products/iot_car_4.jpeg", "alt": "pdp description 4"}
 
         ],
         "description": "A fully functional IoT-based smart robotic car with remote control capabilities, ideal for students and tech enthusiasts."

@@ -9,7 +9,7 @@ import * as styles from './MiniCart.module.css';
 
 const MiniCart = (props) => {
   const sampleCartItem = {
-    image: '/products/iot car.jpeg',
+    image: '/products/iot_car.jpeg',
     alt: '',
     name: 'Lambswool Crew Neck Jumper',
     price: 220,

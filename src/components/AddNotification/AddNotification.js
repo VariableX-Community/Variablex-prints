@@ -11,7 +11,7 @@ import { toOptimizedImage } from '../../helpers/general';
 
 const AddNotification = (props) => {
   const sampleCartItem = {
-    image: '/products/iot car.jpeg',
+    image: '/products/iot_car.jpeg',
     alt: '',
     name: 'Lambswool Crew Neck Jumper',
     price: 220,
