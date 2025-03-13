@@ -31,7 +31,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/22/2024/07/3DPRINTER-BANNER.jpeg'}
+        image={'https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/22/2024/07/3DPRINTER-BANNER.jpg'}
         title={'Everything for Your Next Innovation'}
         subtitle={'Discover Custom 3D Prints & Innovative Projects'}
         ctaText={'Get 3D Prints'}
@@ -77,7 +77,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.promotionContainer} style={{ marginTop: '100px' }}>
         <Hero
-          image={toOptimizedImage('https://sintron-hk.com/cdn/shop/products/832609677_o_1024x1024@2x.jpeg?v=1527381755')}
+          image={toOptimizedImage('https://sintron-hk.com/cdn/shop/products/832609677_o_1024x1024@2x.jpg?v=1527381755')}
           title={`-30% off \n All Essentials`}
         />
         <div className={styles.linkContainers}>
