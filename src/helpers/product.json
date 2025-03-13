@@ -5,7 +5,7 @@
         "vendor": "CapLock",
         "price": 2999,
         "alt": "IoT Smart Robo Car",
-        "image": "/products/iot car.jpg",
+        "image": "/products/iot car.jpeg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -15,11 +15,11 @@
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
-            {"image": "/products/iot car.jpg", "alt": "pdp description 1"},
-            {"image": "/products/iot car 1.jpg", "alt": "pdp description 2"},
-            {"image": "/products/iot car 2.jpg", "alt": "pdp description 3"},
-            {"image": "/products/iot car 3.jpg", "alt": "pdp description 4"},
-            {"image": "/products/iot car 4.jpg", "alt": "pdp description 4"}
+            {"image": "/products/iot car.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/iot car 1.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/iot car 2.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/iot car 3.jpeg", "alt": "pdp description 4"},
+            {"image": "/products/iot car 4.jpeg", "alt": "pdp description 4"}
 
         ],
         "description": "A fully functional IoT-based smart robotic car with remote control capabilities, ideal for students and tech enthusiasts."
@@ -28,21 +28,21 @@
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
+        "image": "/products/shirt1.jpeg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
+        "image": "/products/shirt2.jpeg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
+        "image": "/products/shirt3.jpeg",
         "tags": ["shirt", "men"]
     },
     {

@@ -15,21 +15,21 @@ const FavoritesPage = (props) => {
   const sampleFavorite1 = {
     color: 'Anthracite Melange',
     size: 'XS',
-    img: '/products/shirt1.jpg',
+    img: '/products/shirt1.jpeg',
     alt: 'favorite 1',
   };
 
   const sampleFavorite2 = {
     color: 'Purple Pale',
     size: 'XS',
-    img: '/products/shirt2.jpg',
+    img: '/products/shirt2.jpeg',
     alt: 'favorite 2',
   };
 
   const sampleFavorite3 = {
     color: 'Moss Green',
     size: 'S',
-    img: '/products/shirt3.jpg',
+    img: '/products/shirt3.jpeg',
     alt: 'favorite 3',
   };
 

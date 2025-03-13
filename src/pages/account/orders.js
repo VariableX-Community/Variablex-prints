@@ -20,14 +20,14 @@ const OrderPage = (props) => {
     status: 'pending',
     items: [
       {
-        image: '/products/shirt1.jpg',
+        image: '/products/shirt1.jpeg',
         alt: 'order 1 product 1',
         name: 'Lambswool Crew Neck Jumper',
         quantity: '2',
         price: '100',
       },
       {
-        image: '/products/shirt2.jpg',
+        image: '/products/shirt2.jpeg',
         alt: 'order 1 product 2',
         name: 'Lambswool Crew Neck Jumper',
         quantity: '1',
@@ -57,7 +57,7 @@ const OrderPage = (props) => {
     status: 'pending',
     items: [
       {
-        image: '/products/shirt1.jpg',
+        image: '/products/shirt1.jpeg',
         alt: 'order 1 product 1',
         name: 'Lambswool Crew Neck Jumper',
         quantity: '2',
