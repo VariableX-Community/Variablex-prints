@@ -34,14 +34,14 @@
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
+        "image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741883067/product3_nuo1rs.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpeg",
+        "image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741883209/product4_jljopd.avif",
         "tags": ["shirt", "men"]
     },
     {
