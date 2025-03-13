@@ -69,10 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>Rewards</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                Get exclusive perks, early access, and a free swag surprise on your first order!
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -87,7 +86,7 @@ const Footer = (prop) => {
                   />
                 </form>
                 <div className={styles.socialContainer}>
-                  {Config.social.youtube && (
+                  {/* {Config.social.youtube && (
                     <div
                       onClick={() => handleSocialClick('youtube')}
                       role={'presentation'}
@@ -95,7 +94,7 @@ const Footer = (prop) => {
                     >
                       <Icon symbol={'youtube'}></Icon>
                     </div>
-                  )}
+                  )} */}
 
                   {Config.social.instagram && (
                     <div
@@ -106,7 +105,7 @@ const Footer = (prop) => {
                       <Icon symbol={'instagram'}></Icon>
                     </div>
                   )}
-
+{/* 
                   {Config.social.facebook && (
                     <div
                       onClick={() => handleSocialClick('facebook')}
@@ -115,8 +114,8 @@ const Footer = (prop) => {
                     >
                       <Icon symbol={'facebook'}></Icon>
                     </div>
-                  )}
-
+                  )} */}
+{/* 
                   {Config.social.twitter && (
                     <div
                       onClick={() => handleSocialClick('twitter')}
@@ -125,7 +124,7 @@ const Footer = (prop) => {
                     >
                       <Icon symbol={'twitter'}></Icon>
                     </div>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
@@ -167,14 +166,8 @@ const Footer = (prop) => {
                 )}
               </div>
               <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
-                </Button>
+                {new Date().getFullYear()} (c) . CapLock | Designed, Printed, Delivered.
+            
               </span>
             </div>
           </div>

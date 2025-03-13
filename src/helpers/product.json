@@ -15,10 +15,10 @@
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 4"}
+            {"image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741867983/iot_car_qhevkf.avif", "alt": "pdp description 1"},
+            {"image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741867984/iot_car_1_gfpeoc.png", "alt": "pdp description 2"},
+            {"image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741867984/iot_car_4_i49vcj.png", "alt": "pdp description 3"},
+            {"image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741867984/iot_car_3_zrvxha.png", "alt": "pdp description 4"}
 
         ],
         "description": "A fully functional IoT-based smart robotic car with remote control capabilities, ideal for students and tech enthusiasts."
@@ -27,7 +27,7 @@
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
+        "image": "https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741882649/Group_517_2_dgu02g.png",
         "tags": ["shirt", "men"]
     },
     {
