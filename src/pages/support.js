@@ -72,7 +72,7 @@ const SupportPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={current.title}
-          bgImage={'/support.png'}
+          bgImage={'https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741874632/support_oks3am.jpg'}
           color={'var(--standard-white)'}
           height={'350px'}
         />

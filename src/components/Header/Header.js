@@ -30,7 +30,7 @@ const Header = (prop) => {
   const bannerMessage = 'Free shipping worldwide';
   const searchSuggestions = [
     'Custom 3D Prints',
-    'IoT Robo Car Parts',
+    'IoT Parts',
     'Acrylic & Wood Cuttings',
   ];
 
@@ -128,13 +128,13 @@ const Header = (prop) => {
             >
               <Icon symbol={'search'}></Icon>
             </button>
-            <Link
+            {/* <Link
               aria-label="Favorites"
               href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
-            </Link>
+            </Link> */}
             {/* <Link
               aria-label="Orders"
               href={isAuth() ? '/login' : '/account/orders/'}

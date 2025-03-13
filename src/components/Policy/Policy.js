@@ -5,99 +5,77 @@ const Policy = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h3>1. Lorem Ipsum</h3>
+        <h3>1. Introduction</h3>
         <p>
-          Delaware limited liability company (The Sydney) collects personal
-          information that you voluntarily provide when applying or registering
-          for an account with The Upside or making a purchase on The Upside
-          website; www.theupside.com (the Website).
+          CapLock, an innovative startup, is committed to protecting your
+          privacy. We collect personal information when you interact with our
+          website (caplock.netlify.app), whether for account registration,
+          purchases, or inquiries about our 3D printing and custom fabrication
+          services.
         </p>
         <p>
-          This Privacy Policy (Privacy Policy) outlines how your information is
-          collected, used and disclosed when you access or use our Services as
-          defined in our Terms. This information is collected, used and
-          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy Act).{' '}
+          This Privacy Policy outlines how we collect, use, and disclose your
+          information when you engage with our services. Our practices comply
+          with applicable data protection laws, ensuring transparency and
+          security.
         </p>
         <p>
-          This Privacy Policy is incorporated by reference into our Terms. Any
-          capitalized terms not defined in this Policy are defined in the Terms.
-          You agree to comply with all Terms when accessing or using our
-          Services, including this Privacy Policy.
-        </p>
-      </div>
-
-      <div className={styles.section}>
-        <h3>2. Lorem Ipsum</h3>
-        <p>
-          Our Services, including but not limited to the registration of an
-          account with us or placing of an order, is not intended to be used by
-          children under the age of 13. When a visitor indicates an age under
-          13, the registration process for The Upside website cannot be
-          completed, and no personally identifying information is collected in
-          conjunction with that attempted submission except that we retain
-          e-mail addresses of such persons (and record of access attempts) for
-          purposes of denying registration. Otherwise, we do not knowingly
-          collect personally identifiable information from visitors under the
-          age of 13.
-        </p>
-        <p>
-          If you are under 18, any use of our Services must be with the
-          involvement of a parent or guardian. By accessing or using our
-          Website, you warrant and represent to us that you are over the age of
-          18 years and you have the right, authority and legal capacity to enter
-          into a legally binding agreement and to abide by this Privacy Policy.{' '}
-        </p>
-        <p>
-          The Upside collects, uses and discloses information regarding users
-          aged 13-18 in the same manner as it does for adults.{' '}
+          By accessing our services, you agree to our Privacy Policy and Terms
+          of Service. If you do not agree, please refrain from using our
+          website.
         </p>
       </div>
 
       <div className={styles.section}>
-        <h3>3. Lorem Ipsum</h3>
+        <h3>2. Data Collection and Use</h3>
         <p>
-          You must only use our Services in accordance with this Privacy Policy
-          and any applicable law or regulations. You agree to refrain from
-          undertaking any prohibited acts as set out in this Clause 3. You must
-          not (or attempt to):{' '}
+          Our services, including account creation and order placement, are not
+          intended for individuals under the age of 13. If a user under 13
+          attempts to register, we do not collect their personal information
+          beyond blocking the registration attempt.
         </p>
         <p>
-          (a) interfere with or disrupt the use of Services or the website, in
-          any manner including but not limited to the servicers or networks that
-          host the website;{' '}
-        </p>
-        <p>(b) stalk, harass, threaten, intimidate or harm another; </p>
-        <p>
-          (c) pretend to be anyone, or any entity, you are not, you will not
-          impersonate or misrepresent yourself as another person (including
-          celebrities), entity, a The Upside employee, or a civic or government
-          leader, or otherwise misrepresent your affiliation with a person or
-          entity. The Upside reserves the right to reject or block any user
-          which could be deemed to be an impersonation or misrepresentation of
-          your identity, or a misappropriation of another person's name or
-          identity;{' '}
+          If you are under 18, parental or guardian supervision is required to
+          use our website. By accessing CapLock, you confirm that you are over
+          18 or have permission from a legal guardian.
         </p>
         <p>
-          (d) engage in any copyright infringement or other intellectual
-          property infringement, or disclose any trade secret or confidential
-          information in violation of a confidentiality, employment, or
-          non-disclosure agreement or otherwise;{' '}
+          We collect data such as contact details, order history, and browsing
+          activity to enhance your experience and improve our services. We do
+          not sell or share personal data without consent.
+        </p>
+      </div>
+
+      <div className={styles.section}>
+        <h3>3. User Responsibilities</h3>
+        <p>
+          Users must adhere to ethical and legal guidelines while using our
+          services. The following activities are strictly prohibited:
         </p>
         <p>
-          (e) use, distribute, reproduce or commercialize any content from the
-          Website or The Upside service except as permitted by this Policy, by
-          law, and with prior written agreement from The Upside;{' '}
+          (a) Disrupting the functionality of our website or services, including
+          hacking or unauthorized access;
+        </p>
+        <p>(b) Engaging in harassment, threats, or inappropriate behavior;</p>
+        <p>
+          (c) Misrepresenting identity or affiliation, impersonating another
+          person, or using false credentials;
         </p>
         <p>
-          (f) transmit any unsolicited advertising, promotional material or
-          other forms of solicitation in connection with your use of the Service
-          without the prior written agreement of The Upside;{' '}
+          (d) Infringing on copyrights, intellectual property, or disclosing
+          confidential information without authorization;
         </p>
         <p>
-          (g) forge any TCP-IP packet header or any part of the header
-          information or otherwise putting Information in a header designed to
-          mislead recipients as to the origin of any content transmitted through
-          the Website ("spoofing";);
+          (e) Distributing, reproducing, or commercializing our content without
+          written permission;
+        </p>
+        <p>
+          (f) Sending unsolicited advertisements, spam, or promotional
+          materials through our services;
+        </p>
+        <p>
+          (g) Manipulating digital data headers to mislead recipients regarding
+          the origin of communications ("spoofing").
         </p>
       </div>
     </div>
