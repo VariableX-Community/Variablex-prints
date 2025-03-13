@@ -29,9 +29,9 @@ const Header = (prop) => {
   const searchRef = createRef();
   const bannerMessage = 'Free shipping worldwide';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Custom 3D Prints',
+    'IoT Robo Car Parts',
+    'Acrylic & Wood Cuttings',
   ];
 
   const handleHover = (navObject) => {
@@ -97,8 +97,9 @@ const Header = (prop) => {
                 <Link
                   key={navObject.menuLink}
                   onMouseEnter={() => handleHover(navObject)}
-                  className={`${styles.navLink} ${activeMenu === navObject.menuLabel ? styles.activeLink : ''
-                    }`}
+                  className={`${styles.navLink} ${
+                    activeMenu === navObject.menuLabel ? styles.activeLink : ''
+                  }`}
                   to={navObject.menuLink}
                 >
                   {navObject.menuLabel}
@@ -162,8 +163,9 @@ const Header = (prop) => {
 
         {/* search container */}
         <div
-          className={`${styles.searchContainer} ${showSearch === true ? styles.show : styles.hide
-            }`}
+          className={`${styles.searchContainer} ${
+            showSearch === true ? styles.show : styles.hide
+          }`}
         >
           <h4>What are you looking for?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
@@ -208,8 +210,9 @@ const Header = (prop) => {
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
         onMouseEnter={() => setShowMenu(true)}
-        className={`${styles.menuContainer} ${showMenu === true ? styles.show : ''
-          }`}
+        className={`${styles.menuContainer} ${
+          showMenu === true ? styles.show : ''
+        }`}
       >
         <Container size={'large'} spacing={'min'}>
           <ExpandedMenu menu={menu} />
