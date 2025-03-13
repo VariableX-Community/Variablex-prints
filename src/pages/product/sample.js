@@ -156,7 +156,7 @@ const ProductPage = (props) => {
               'Crafted for everyday use, our products blend timeless design with lasting durability. We focus on quality over quantity, creating pieces that stand the test of time—beyond trends and seasons.'
             }
             ctaText={'learn more'}
-            cta={() => navigate('/blog')}
+            cta={() => navigate('/about')}
             bgColor={'var(--standard-light-grey)'}
           />
         </div>
