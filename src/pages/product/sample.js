@@ -149,11 +149,11 @@ const ProductPage = (props) => {
 
         <div className={styles.attributeContainer}>
           <Split
-            image={'/cloth.png'}
+            image={'https://res.cloudinary.com/dl8rjqcxk/image/upload/v1741883714/sustainability_card_nxkvha.jpg'}
             alt={'attribute description'}
             title={'Sustainability'}
             description={
-              'We design our products to look good and to be used on a daily basis. And our aim is to inspire people to live with few timeless objects made to last. This is why quality over quantity is a cornerstone of our ethos and we have no interest in trends or seasonal collections.'
+              'Crafted for everyday use, our products blend timeless design with lasting durability. We focus on quality over quantity, creating pieces that stand the test of time—beyond trends and seasons.'
             }
             ctaText={'learn more'}
             cta={() => navigate('/blog')}
